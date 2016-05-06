@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+*~
+\#*#
+.#*
+\#*
+*fasl
+*aux
+*log
