@@ -33,7 +33,7 @@ public struct TouchIDHelper{
         return .Pass
     }
 
-    public static func showTouchID(reason: String, fallbackTitle: String, callback: TouchIDPresentCallBack) {
+    public static func showTouchID(Reason reason: String, FallbackTitle fallbackTitle: String, CallBack callback: TouchIDPresentCallBack) {
         let bike = LAContext()
         bike.localizedFallbackTitle = fallbackTitle
         bike.evaluatePolicy(.DeviceOwnerAuthenticationWithBiometrics, localizedReason: reason) {(_ ,error) in
